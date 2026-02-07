@@ -1,0 +1,66 @@
+*{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+           
+            html ,
+             body{
+                height: 100%;
+                width: 100%;
+            }
+          
+            #box1{
+                height: 300px;
+                width: 300px;
+                background: linear-gradient(to left bottom,red 20%,blue );
+
+            }
+            #box2{
+                height:300px;
+                width: 300px;
+                background: radial-gradient(yellow,red 10%,yellow 10%,red 10%,yellow,red,black);
+            }      
+            #box3{
+                height:300px;
+                width: 300px;
+                background: conic-gradient(violet,indigo,blue,green,yellow,red,violet)
+            }
+
+            #outher{
+                height: 400px;
+                width: 400px;
+                background-color:aquamarine;
+
+            }
+            #inner{
+                height: 200px;
+                width: 200px;
+                background-color:bisque
+            }
+
+            #main{
+                height: 100%;
+                width: 100%;
+                background-image: url(https://plus.unsplash.com/premium_photo-1748176005066-985bbc9ef4f7?q=80&w=1129&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+                background-size:cover;background-position: center;
+            }
+
+            #box{
+                height: 300px;
+                width: 300px;
+                background-color: chocolate;
+                margin: 10px;
+                padding: 20px;
+                border: 10px solid wheat;
+                
+            }
+            button{
+                margin: 100px ;
+                padding: 15px 30px;
+                background-color:cadetblue;
+                font-size: 20px;
+                font-weight: 600;
+                border: 2px solid black;
+                border-radius: 20px;
+            }

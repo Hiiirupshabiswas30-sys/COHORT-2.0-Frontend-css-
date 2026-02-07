@@ -1,0 +1,60 @@
+@font-face {
+    font-family: horror;
+    src: url(./Blood\ Victim\ Zombie.ttf);
+}
+@font-face {
+    font-family: lov;
+    src: url(./Shivaraja.ttf);
+}
+@font-face {
+    font-family: hai;
+    src: url(./NeueMachina-Light_gwWCZxVuQl.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* h1{
+    background-color: aqua;
+    color: royalblue;
+    font-size: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    font-style: italic;
+    text-align:justify;
+    text-transform:capitalize
+} */
+ #hero{
+    background-color: aquamarine;
+ }
+.lnct{
+    color: brown;
+  
+}
+#lol{
+    font-size: 100px;
+    font-family: horror;
+    
+}
+
+#love{
+    font-family: lov;
+    font-size:100px;
+    font-weight: 100px;
+}
+#sher{
+    font-family: hai;
+
+}
+
+div{
+   background-color: aquamarine;
+   height: 200px;
+   width: 200px;
+}
