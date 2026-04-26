@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html , body{
+    height: 100%;
+    width: 100%;
+   
+}
+ /* responsive web dev */
+/* h1{
+    color: blue;
+    font-size: 120px;
+}
+#box{
+    height: 300px;
+    width: 600px;
+    background-color: aquamarine;
+}
+#inner{
+    height: 50%;
+    width: 50%;
+    background-color: burlywood;
+}
+#box{
+    height: 80vh;
+    width:80vw;
+    background-color:aquamarine;
+} */
+/* #box1{
+    height: 30vmax;
+    width: 30vmax;
+    background-color: red;
+}
+h1{
+    font-size:10vmin;
+} */
+
+.parent{
+    background-color:darksalmon;
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+h2{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2em;
+}
+h6{
+    font-size: 1em;
+}
+p{
+    font-size: 0.5em;
+}
