@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* @keyframes changeBG{
+    from{
+        background-color: white;
+        border-radius: 0px;
+        transform: translate(0px) scale(1);
+        visibility: visible;
+    }
+    to{
+        background-color:red;
+        border-radius: 50px;
+        transform: translate(100px) scale(0.5);
+        visibility: hidden;
+    }
+} */
+
+/* color, lemgth, angle*/
+
+@property --bgColor{
+    syntax: "<color>";
+    initial-value: rgb(255, 0, 179) ;
+    inherits: false;
+}
+
+@keyframes animateBgColor{
+    from{
+        --bgColor:red;
+    }
+    to{
+        --bgColor:blue;
+    }
+}
+
+
+
+
+.box{
+    height: 200px;
+    width: 400px;
+    border: 1px solid white;
+    background-color: var(--bgColor);
+    animation: animateBgColor 5s;
+    
+   
+}
+
